@@ -149,7 +149,7 @@
     "radix": "warn",
     "react-hooks/rules-of-hooks": "error",
     "react/destructuring-assignment": "warn",
-    "react/jsx-boolean-value": "warn",
+    "react/jsx-boolean-value": "off",
     "react/jsx-closing-bracket-location": "warn",
     "react/jsx-closing-tag-location": "warn",
     "react/jsx-curly-spacing": "warn",

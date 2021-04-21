@@ -1,11 +1,12 @@
 import { ThemeProvider } from 'styled-components'
 
+import { SomeFeature } from 'features/SomeFeature'
 import { CommonHead } from 'heads/CommonHead'
 import { PageHead } from 'heads/HomePage'
-import { PageMock } from '__mocks__/PageMock'
 import { Theme } from 'config/styled/Theme'
 import { GlobalStyle } from 'config/styled/GlobalStyles'
 import { FontFace } from 'config/FontFace/FontFace'
+import { PageMock } from '__mocks__/PageMock'
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
 
       <PageMock>
         LELELETMEDIE
+        <SomeFeature someProp='someFeatureProp' />
       </PageMock>
     </ThemeProvider>
   )
