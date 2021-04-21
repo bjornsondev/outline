@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "features/*": ["features/*"],
+      "pages/*": ["pages/*"],
+      "config/*": ["config/*"],
+      "assets/*": ["assets/*"],
+      "__mocks__/*": ["__mocks__/*"]
+    }
+  }
+}
