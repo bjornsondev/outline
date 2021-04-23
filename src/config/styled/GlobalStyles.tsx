@@ -1,6 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
+  @font-face {
+    font-family: 'OSC-A';
+    src: url('/fonts/osca.woff2') format('woff2');
+  }
+
   *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;

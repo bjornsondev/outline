@@ -24,7 +24,6 @@
     "types": ["react", "react-dom"]
   },
   "include": [
-    "declarations/next-env.d.ts",
     "declarations/styled.d.ts",
     "declarations/index.d.ts",
     "**/*.ts",
