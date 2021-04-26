@@ -1,15 +1,15 @@
 import { get } from 'lodash'
 import { withTheme } from 'styled-components'
 
-const LogoFC = ({ theme }) => {
+const LogoFC = ({ theme, ...props }) => {
   const cold = get(theme, ['palette', 'cold'])
   const warm = get(theme, ['palette', 'warm'])
 
   return (
     <svg
+      {...props}
       xmlns='http://www.w3.org/2000/svg'
-      width='100%'
-      viewBox='0 0 113 119'
+      viewBox='0 0 113 113'
       fill='none'
     >
       <g>
