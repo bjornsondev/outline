@@ -1,6 +1,8 @@
 import Document, {
   Html,
   Head,
+  Main,
+  NextScript,
 } from 'next/document'
 
 class OutlineDocument extends Document {
@@ -15,6 +17,8 @@ class OutlineDocument extends Document {
         <Head>
           <meta charSet='utf-8' />
         </Head>
+        <Main />
+        <NextScript />
       </Html>
     )
   }
