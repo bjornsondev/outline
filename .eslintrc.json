@@ -161,6 +161,7 @@
     "react/jsx-no-bind": "warn",
     "react/jsx-no-target-blank": "warn",
     "react/jsx-props-no-multi-spaces": "warn",
+    "react/jsx-props-no-spreading": "off",
     "react/jsx-tag-spacing": "warn",
     "react/jsx-wrap-multilines": "warn",
     "react/jsx-fragments": "off",
