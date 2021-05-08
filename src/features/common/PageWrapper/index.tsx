@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components'
 
-import { GlobalStyle } from 'config/styled/GlobalStyles'
-import { Theme } from 'config/styled/Theme'
+import { GlobalStyle } from 'styled/GlobalStyles'
+import { Theme } from 'styled/Theme'
 
 type TPageWrapper = {
   children: React.ReactNode,

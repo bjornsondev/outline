@@ -24,8 +24,8 @@
     "types": ["react", "react-dom"]
   },
   "include": [
-    "declarations/styled.d.ts",
-    "declarations/index.d.ts",
+    "src/types/styled.d.ts",
+    "src/types/index.d.ts",
     "**/*.ts",
     "**/*.tsx"
   ],

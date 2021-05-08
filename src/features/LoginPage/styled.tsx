@@ -1,5 +1,6 @@
+import { Field } from 'features/common/Field'
 import styled from 'styled-components'
-import { Logo } from 'features/common/Logo'
+import { Logo } from 'svg/Logo'
 
 export const LoginWrapper = styled.div`
   height: 100vh;
@@ -16,11 +17,28 @@ export const LogoBackground = styled(Logo)`
   top: 0%;
   transform: translateX(-50%);
   height: 100%;
-  opacity: .05;
+  opacity: 0.05;
 `
 
 export const TitleText = styled.h1`
   font-size: 60px;
+`
+
+export const FieldLabel = styled.label`
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+`
+
+export const FieldContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+`
+
+export const EmailField = styled(Field)`
+  margin-bottom: 20px;
 `
 
 export const RegistrationLink = styled.a`
@@ -75,6 +93,7 @@ export const RegistrationLink = styled.a`
     transition: none;
     color:  ${({ theme }) => theme.palette.cold};
   }
+
   &:active::after, &:active::before {
     background-color: ${({ theme }) => theme.palette.cold};
     transition: none;

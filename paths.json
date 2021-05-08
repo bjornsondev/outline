@@ -3,10 +3,12 @@
     "baseUrl": "./src",
     "paths": {
       "features/*": ["features/*"],
+      "types/*": ["types/*"],
       "pages/*": ["pages/*"],
-      "config/*": ["config/*"],
-      "assets/*": ["assets/*"],
-      "__mocks__/*": ["__mocks__/*"]
+      "svg/*": ["svg/*"],
+      "styled/*": ["styled/*"],
+      "hooks/*": ["hooks/*"],
+      "heads/*": ["heads/*"]
     }
   }
 }

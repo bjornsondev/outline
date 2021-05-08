@@ -137,7 +137,7 @@
     "operator-linebreak": "warn",
     "padded-blocks": "warn",
     "postro4no/import": "warn",
-    "postro4no/object-props": "warn",
+    "postro4no/object-props": "off",
     "postro4no/function-args": "warn",
     "prefer-arrow-callback": "warn",
     "prefer-const": "warn",
